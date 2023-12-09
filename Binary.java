@@ -24,7 +24,8 @@ public class Binary extends ArithmeticExpression{
     }
 
     @Override
-    public void evaluate() {
+    public int evaluate() {
 
+        return 0;
     }
 }
