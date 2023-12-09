@@ -28,4 +28,5 @@ public class Binary extends ArithmeticExpression{
 
         return 0;
     }
+
 }
