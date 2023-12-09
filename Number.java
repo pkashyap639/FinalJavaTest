@@ -14,7 +14,12 @@ public class Number extends ArithmeticExpression{
     }
 
     @Override
-    public void evaluate() {
+    public int evaluate() {
+        return value;
+    }
 
+    @Override
+    public String toString() {
+        return Integer.toString(value);
     }
 }
