@@ -6,9 +6,9 @@ public class Modulo extends Binary{
     @Override
     public int evaluate(){
         int left = getLeft().evaluate();
-        int rigt = getLeft().evaluate();
+        int right = getRight().evaluate();
         try{
-            return left % rigt;
+            return left % right;
         }catch(Exception e){
             System.out.println("Divisible by 0 Exception");
         }
